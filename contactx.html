@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/svg-with-js.min.css"
+		integrity="sha512-W3ZfgmZ5g1rCPFiCbOb+tn7g7sQWOQCB1AkDqrBG1Yp3iDjY9KYFh/k1AWxrt85LX5BRazEAuv+5DV2YZwghag=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+	<script src="https://kit.fontawesome.com/41de0e087b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="icon" type="image/x-icon" href="CSS/favicon.ico">
+	<title>Document</title>
+</head>
+
+<body>
+
+	<style>
+		body {
+			background: #ffffff;
+			font-family: 'Times New Roman', Times, serif;
+
+		}
+
+		/*navbar*/
+
+		/*navbar*/
+
+		.topnav {
+			overflow: hidden;
+			background: linear-gradient(black, rgba(0, 0, 0, 0.7));
+			height: auto;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+
+		.topnav a {
+			float: left;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 25px 25px;
+			text-align: justify;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+		.topnav a:hover {
+			color: #FED8A7;
+			text-decoration: none;
+		}
+
+		.topnav a.active {
+			font-size: 30px;
+			text-decoration: none;
+		}
+
+		.contact {
+			padding: 4%;
+			height: 400px;
+		}
+
+		.col-md-3 {
+
+			background: linear-gradient(135deg, #FED8A7, #3C486B);
+			color: white;
+			padding: 4%;
+		}
+
+		.contact-info {
+			margin-top: 10%;
+		}
+
+		.contact-info img {
+			margin-bottom: 15%;
+		}
+
+		.contact-info h2 {
+			margin-bottom: 10%;
+		}
+
+		.contact-form label {
+			font-weight: 600;
+		}
+
+		.contact-form button {
+			background: #3C486B;
+			color: #fff;
+			font-weight: 600;
+			width: 25%;
+		}
+	</style>
+	</head>
+
+	<body style="background-image: url(CSS/back-icon.jpg);">
+
+
+
+		<div class="topnav">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><i
+						style="color: white;" class="fa-solid fa-bars"></i>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="CSS/text_logo-removebg-preview (1).png">
+					<a class="active" href="#">WEB <span
+							style="color: red; font-family: Arial, Helvetica, sans-serif; font-weight: bolder;">CLASH</span></a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<a href="take2.html">Home</a>
+				<a href="#">Contact Us</a>
+				<a href="pricing.html">Pricing</a>
+				<a href="aboutx.html">About Us </a>
+			</div>
+		</div>
+
+		<div style=" padding-top: 5%;">
+			<div class="container-fluid contact">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="contact-info">
+							<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image" />
+							<h1>Contact Us</h1>
+							<h4>We would love to hear from you !</h4>
+							<h3>Thankyou! </h3>
+							<h3><em> We will contact you within <span style="font-weight: bolder;"> 24
+										hours.</span></em></h3>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<form action="https://formsubmit.co/webclash9@gmail.com" method="POST">
+							<div class="contact-form">
+								<div class="form-group" style="margin-top: 50px;">
+									<label class="control-label col-sm-2" for="fname">First Name:</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="fname"
+											placeholder="Enter First Name" name="fname" required>
+									</div>
+								</div>
+								<div class="form-group" style="padding-top: 50px;">
+									<label class="control-label col-sm-2" for="lname">Last Name:</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="lname" placeholder="Enter Last Name"
+											name="lname" required>
+									</div>
+								</div>
+								<div class="form-group" style="padding-top: 50px;">
+									<label class="control-label col-sm-2" for="email">Email:</label>
+									<div class="col-sm-10">
+										<input type="email" class="form-control" id="email" placeholder="Enter email"
+											name="email" required>
+									</div>
+								</div>
+								<div class="form-group" style="padding-top: 50px;">
+									<label class="control-label col-sm-2" for="No">Phone No:</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="No" placeholder="Your Phone No."
+											name="No" required>
+									</div>
+								</div>
+								<div class="form-group" style="padding-top: 50px;">
+									<label class="control-label col-sm-2" for="comment">Any specific details:</label>
+									<div class="col-sm-10">
+										<textarea class="form-control" rows="5" id="comment" placeholder="Specify"
+											required></textarea>
+									</div>
+								</div>
+								<div class="form-group" style="padding-top: 50px;">
+									<div class="col-sm-offset-2 col-sm-10" style="padding-top: 90px;">
+										<button type="submit" class="btn btn-default">Submit</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+
+
+
+
+
+	</body>
+
+</html>

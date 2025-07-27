@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+.chat-bubble {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .container{
+    background-color: grey;
+    position: relative;
+    text-align: left;
+  }
+  
